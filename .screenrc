@@ -1,0 +1,8 @@
+# Don't display the copyright page
+startup_message off
+
+# keep scrollback n lines
+defscrollback 5000
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m/%d %{W}%c %{g}]'
